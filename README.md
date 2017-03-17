@@ -22,16 +22,16 @@ Use node's npm package tools to install dependent resources .
 
 ### build project
 ```bash
-	git clone https://github.com/liuding-Jason/express
-	cd express && npm install
+git clone https://github.com/liuding-Jason/express
+cd express && npm install
 ```
 ### run test egs
 ```bash
-	supervisor hello\ world/index.js 
+supervisor hello\ world/index.js 
 ```
 ### es6 compatible solution
 ```bash
-	node index.js --harmony
+node index.js --harmony
 ```
 ### to see results
 

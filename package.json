@@ -1,0 +1,27 @@
+{
+  "name": "socket-simple-ues",
+  "version": "0.0.1",
+  "description": "socket simple uses",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuding-Jason/socket.git"
+  },
+  "keywords": [
+    "node",
+    "socket"
+  ],
+  "author": "liuding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuding-Jason/socket/issues"
+  },
+  "homepage": "https://github.com/liuding-Jason/socket#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}

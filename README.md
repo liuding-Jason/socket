@@ -12,7 +12,8 @@ Socket.IO能够建立基于事件机制的双向实时会话，在保证可靠�
 
 ## Included Examples
 
- - [hello-world](hello-world) - hello-world test ***socket.IO*** 
+ - [hello-world](hello-world) - hello-world tests ***socket.IO*** .
+ - [simple chat](simple chat) - simple chat gives a simple chat example of ***Socket.IO*** .
 
 ## Build Guide 
 

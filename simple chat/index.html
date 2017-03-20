@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Socket IO</title>
+</head>
+<body>
+    
+	<input type="text" id="chat-input" name="message" placeholder="please input your message!">
+	<input type="button" name="btn" id="btn" value="提交" >
+	<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+    	{
+            let flag = true , t = 0 ;
+            let socket = io() ;
+    		$("#btn").off("click").on("click" , (ev) => {
+                console.log($("#chat-input").val());
+                if(!flag) return ;
+    			socket.emit("chat mess" , $("#chat-input").val() || "hello");
+    			$("#chat-input").val('') ;
+                flag = false ;
+                t = setTimeout(function(){
+                    flag = true ;
+                    clearTimeout(t);
+                } , 300)
+    		}) ;
+    	}
+    </script>
+</body>
+</html>
